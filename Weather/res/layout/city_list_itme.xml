@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit_button_normal" >
+
+    <TextView
+        android:id="@+id/grid_cityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+       android:layout_centerInParent="true"
+        android:text="chedeng " />
+
+    <!--<ImageView
+        android:id="@+id/grid_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/daily_forecast_sunny" />
+
+    <TextView
+        android:id="@+id/grid_weather_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid_image"
+        android:layout_centerHorizontal="true"
+        android:text="晴" />  -->
+
+</RelativeLayout>
